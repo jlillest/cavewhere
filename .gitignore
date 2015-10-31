@@ -956,3 +956,4 @@ icons/svg/caveThePlanetInvers.svg
 icons/svg/remove.png
 testcase/test.cw
 Info.plist
+build/*
