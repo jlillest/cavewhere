@@ -1,3 +1,6 @@
 #!/bin/sh -e
 
 ldconfig
+
+cd /usr/local/bin
+ln -s /usr/local/cavewhere/Cavewhere cavewhere
