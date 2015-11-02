@@ -3,7 +3,7 @@ Priority: optional
 Architecture: amd64
 Homepage: http://www.cavewhere.com
 Depends: libc6, mesa-common-dev, libqt5core5a, libqt5concurrent5, libqt5opengl5, libqt5quick5, libqt5sql5, libqt5xml5
-Version: 0.07-51-gb30926a
+Version: 0.07-53-gc6d05c8
 Maintainer: Jon Lillestolen <jlillest@gmail.com>
 Description: cave data management solution
   cavewhere processes cave survey data and produces working cave maps
