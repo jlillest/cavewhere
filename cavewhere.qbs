@@ -84,9 +84,9 @@ Project {
         Properties {
             condition: qbs.targetOS.contains("osx") || qbs.targetOS.contains("linux")
             cpp.cxxFlags: [
-                "-stdlib=libc++", //Needed for protoc
+                //"-stdlib=libc++", //Needed for protoc
                 "-std=c++11", //For c++11 support
-                "-Werror" //Treat warnings as errors
+                //"-Werror" //Treat warnings as errors
             ]
         }
 
@@ -114,6 +114,7 @@ Project {
         }
 
         cpp.defines:[
+	    "QT_NO_DEBUG_OUTPUT",
             "TRILIBRARY",
             "ANSI_DECLARATORS"
         ]
